@@ -1,0 +1,200 @@
+<div class="container is-fluid">
+  <div class="notification" style="text-align: center;"> <code> My Portfolio Ibnu Syawall </code> </div>
+
+<section class="section">
+
+<div class="tile is-ancestor">
+  <div class="tile is-4 is-vertical is-parent">
+
+    <div class="tile is-child box">
+      <p class="title">Why This?</p>
+      <p>Ini merupakan halaman portfolio dan biodata tentang saya, my quotes on the day: hidup tidak harus soal cinta kawan, kejarlah harapan dan tujuan hidupmu setinggi langit.</p>
+      <figure class="image is-4by3">
+        <img src="/images/b.png">
+      </figure>
+    </div>
+
+    <div class="tile is-child box">
+      <p class="title">How me ?</p>
+      <p>Pengalaman saya di bidang pemrograman masih awam, saya mulai berkecimpung di dunia pemrograman sekitar 10bulan yang lalu, dan saya tertarik akhirnya saya bisa menekuni itu semua. </p>
+    </div>
+
+  </div>
+
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+      <p class="title">Tentang Saya</p>
+      <p>Hallo! Nama saya <code>{{ nama }}</code>, asal saya dari {{ asal }}. Saya lulusan dari sekolah {{ sekolah }}. Saya mulai gemar dengan yang namanya <strong>ngoding</strong> pada kelas 9, dan saya tertarik hingga saat ini dan menjadi rutinitas setiap hari.</p>
+      <p>Saya berasal dari keluarga cukup sederhana, tujuan dan harapan saya ingin menjadi orang sukses dan bisa membanggakan orang tua dan saudara-saudara saya. Sarana belajar saya cukup sederhana yaitu dengan bermodalkan {{ sarana.hp }}, dan menurut saya itu sangat menyenangkan.</p>
+      <figure class="image is-4by3">
+        <img src="/images/a.gif">
+      </figure>
+    </div>
+  </div>
+
+</div>
+
+{{!-- who ? --}}
+
+<div class="tile is-ancestor">
+
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">HTML</p>
+      <figure class="image is-4by3">
+        <img src="/images/html.png">
+      </figure>
+    </article>
+  </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">Java Script</p>
+      <figure class="image is-4by3">
+        <img src="/images/js.png">
+      </figure>
+    </article>
+  </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">jQuery</p>
+      <figure class="image is-4by3">
+        <img src="/images/jquery.png">
+      </figure>
+    </article>
+  </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">PHP</p>
+      <figure class="image is-4by3">
+        <img src="/images/php.png">
+      </figure>
+    </article>
+  </div>
+
+</div>
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-9">
+    <div class="tile">
+
+     <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">NODE JS</p>
+          <figure class="image is-4by3">
+            <img src="/images/node.png">
+          </figure><br />
+          <div class="content">
+            <p> NodeJS, merupakan library dari pemrograman Javascript, node bisa berjalan di sisi server layaknya pemrograman php, nodejs mempunyai banyak package2 yang cukup banyak dan menurut saya the best of the years.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is-8 is-vertical">
+        <div class="tile">
+
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">mySQL</p>
+              <figure class="image is-4by3">
+                <img src="/images/mysql.png">
+            </figure>
+            </article>
+          </div>
+
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Git Bash</p>
+              <figure class="image is-4by3">
+                <img src="/images/git.png">
+             </figure>
+            </article>
+          </div>
+
+        </div>
+
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">My Skill</p>
+             <ul>
+                <li>{{ skill.a }} <br />
+                    <progress min="0" max="100" value="65"></progress>
+                </li>
+                <li>{{ skill.b }} <br />
+                    <progress min="0" max="100" value="35"></progress>
+                </li>
+                <li>{{ skill.c }} <br />
+                    <progress min="0" max="100" value="45"></progress>
+                </li>
+                 <li>{{ skill.d }} <br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>{{ skill.e }} <br />
+                    <progress min="0" max="100" value="25"></progress>
+                </li>
+                <li>{{ skill.f }} <br />
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>{{ skill.g }} <br />
+                    <progress min="0" max="100" value="60"></progress>
+                </li>
+                <li>{{ skill.h }} <br />
+                    <progress min="0" max="100" value="15"></progress>
+                </li>
+                <li>{{ skill.i }} <br />
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+            </ul>
+          </article>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tile">
+
+      <div class="tile is-8 is-parent">
+        <article class="tile is-child box">
+          <p class="title">Bootstrap</p>
+          <figure class="image is-4by3">
+            <img src="/images/bootstrap.png">
+         </figure>
+        </article>
+      </div>
+
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Express JS</p>
+          <figure class="image is-4by3">
+            <img src="/images/express.png">
+          </figure>
+          <div class="content">
+            <p> Expressjs merupakan framework nodejs yang begitu terkenal, expressjs bisa di custominazi segala hal didalamnya, kini expressjs jadi fw terkenal dikalangan nodejs</p>
+          </div>
+        </article>
+      </div>
+
+     </div>
+    </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <div class="content">
+        <p class="title">Contact & Site</p>
+        <p class="subtitle"></p>
+        <div class="content">
+          <p> Email   : <br /><code>{{ sosmed.gmail }}</code></p>
+          <p> WhatsApp: <br /><code>{{ sosmed.whatsapp }}</code></p>
+          <p> Github  : <br /><code>{{ sosmed.github }}</code></p>
+          <p> Blog    : <br /><code>{{ sosmed.blog }}</code></p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+</div>
+
+</section>
+</div>

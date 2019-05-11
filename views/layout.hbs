@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    {{!--<script type="text/javascript" src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"</script>--}}
+  </head>
+  <style>
+    *{
+	padding: 0;margin: 0;
+     }
+     html, body{
+	height: 100%;
+        background-image: url('/images/bgpc.gif');
+     }
+
+     li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    }
+    progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+    }
+    progress::-webkit-progress-bar {
+    background: #efefef;
+    }
+    progress::-webkit-progress-value {
+    background: #3fb6b2;
+    } 
+    progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+    }
+  </style>
+  <body>
+    {{{body}}}
+  </body>
+</html>
